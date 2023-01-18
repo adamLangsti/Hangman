@@ -85,3 +85,25 @@
     rotate: 30deg;
     transform-origin: right bottom;
 }
+
+.right-leg {
+    width: 100px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    right: -90px;
+    top: 210px;
+    rotate: 50deg;
+    transform-origin: left bottom;
+}
+
+.left-leg {
+    width: 100px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    right: 0px;
+    top: 210px;
+    rotate: -50deg;
+    transform-origin: right bottom;
+}
