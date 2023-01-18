@@ -93,7 +93,7 @@
     position: absolute;
     right: -90px;
     top: 210px;
-    rotate: 50deg;
+    rotate: 60deg;
     transform-origin: left bottom;
 }
 
@@ -104,6 +104,6 @@
     position: absolute;
     right: 0px;
     top: 210px;
-    rotate: -50deg;
+    rotate: -60deg;
     transform-origin: right bottom;
 }
