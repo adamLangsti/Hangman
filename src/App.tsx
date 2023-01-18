@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import words from './wordList.json';
-import './styles.css';
+import '../src/styles/main.css'
 import { HangmanDrawing } from './HangmanDrawing';
 import { HangmanWord } from './HangmanWord';
 import { Keyboard } from './Keyboard';
