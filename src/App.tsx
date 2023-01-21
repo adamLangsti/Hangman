@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import words from './wordList.json';
-import '../src/styles/main.css'
+import '../src/styles/main.css';
 import { HangmanDrawing } from './HangmanDrawing';
 import { HangmanWord } from './HangmanWord';
 import { Keyboard } from './Keyboard';
@@ -16,7 +16,9 @@ function App() {
             <div className='winLoseText'>Win Lose</div>
             <HangmanDrawing />
             <HangmanWord />
-            <Keyboard />
+            <div style={{ alignSelf: 'stretch' }}>
+                <Keyboard />
+            </div>
         </div>
     );
 }
