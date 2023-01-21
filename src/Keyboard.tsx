@@ -30,5 +30,11 @@ const KEYS = [
 ];
 
 export function Keyboard() {
-     <div className='keyboard'></div>
+    return (
+        <div className='keyboard'>
+            {KEYS.map((key) => (
+                <button className='keyboard-button' key={key}>{key}</button>
+            ))}
+        </div>
+    );
 }
