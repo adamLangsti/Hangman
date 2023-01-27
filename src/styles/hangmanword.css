@@ -10,10 +10,3 @@
 .letters {
     border-bottom: 0.1em solid #000;
 }
-
-.letter-visible {
-    visibility: visible;
-}
-.letter-invisible {
-    visibility: hidden;
-}
