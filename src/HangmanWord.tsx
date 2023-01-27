@@ -1,11 +1,14 @@
 import '../src/styles/hangmanword.css';
 
-export function HangmanWord() {
-    const word = 'test';
-    const guessedLetters = ['t', "s", "f"];
+type HangmanWordProps = {
+    guessedLetters: string[];
+    wordToGuess: string;
+};
+
+export function HangmanWord({ guessedLetters, wordToGuess }: HangmanWordProps) {
     return (
         <div className='wordContainer'>
-            {word.split('').map((letter, index) => (
+            {wordToGuess.split('').map((letter, index) => (
                 <span key={index} className='letters'>
                     <span
                         className={
